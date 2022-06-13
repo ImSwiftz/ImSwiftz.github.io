@@ -14,7 +14,7 @@ var checkDead = setInterval(function(){
     parseInt(window.getComputedStyle(charecter).getPropertyValue("top"));
     var blockleft = 
     parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-    if(blockleft<150 && blockleft>0 && charecterTop>=300){
+    if(blockleft<150 && blockleft>0 && charecterTop>=200){
         block.style.animation = "none";
         block.style.display = "none";
         alert("U lose")
