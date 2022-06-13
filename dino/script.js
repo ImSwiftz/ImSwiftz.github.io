@@ -7,14 +7,14 @@ function jump(){
     }
     setTimeout(function(){
         charecter.classList.remove("animate");
-    },500);
+    },1000);
 }
 var checkDead = setInterval(function(){
     var charecterTop = 
     parseInt(window.getComputedStyle(charecter).getPropertyValue("top"));
     var blockleft = 
     parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-    if(blockleft<150 && blockleft>0 && charecterTop>=200){
+    if(blockleft<20 && blockleft>0 && charecterTop>=220){
         block.style.animation = "none";
         block.style.display = "none";
         alert("U lose")
