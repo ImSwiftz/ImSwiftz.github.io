@@ -5,3 +5,9 @@
 body{
     background-color: aqua;
 }
+#wow{
+    background-image: url(/dogman.jpg);
+background-repeat: no-repeat;
+width: 360px;
+height: 360px;
+}
