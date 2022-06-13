@@ -1,12 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-#game{
-    width: 1000px;
-    height: 500px;
-    border: 1px solid black;
-}
+ 
 #charecter{
     width: 20px;
     height: 50px;
